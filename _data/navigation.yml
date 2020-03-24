@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Today I learned"
+    url: "/til/"
+  - title: "How I learned"
+    url: "/hil/"
+  - title: "Daily life "
+    url:
