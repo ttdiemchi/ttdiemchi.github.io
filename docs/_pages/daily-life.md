@@ -1,5 +1,5 @@
 ---
 title: "Daily life"
 layout: categories
-permalink: /hil/
+permalink: /daily-life/
 ---
