@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: "Today I learned"
-    url: "/til/"
-  - title: "How I learned"
-    url: "/hil/"
+  - title: "Computer Science"
+    url: "/computer-science/"
   - title: "Daily life "
-    url:
+    url: "/daily-life"
