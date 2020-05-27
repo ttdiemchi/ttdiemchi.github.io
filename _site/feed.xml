@@ -1,1 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-27T11:05:17+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chi Tran</title><subtitle>Be best of yourself</subtitle><author><name>Chi Tran</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-27T15:23:57+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chi Tran</title><subtitle>Be best of yourself</subtitle><author><name>Chi Tran</name></author><entry><title type="html">Linear data structure</title><link href="http://localhost:4000/data-structure/" rel="alternate" type="text/html" title="Linear data structure" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/data-structure</id><content type="html" xml:base="http://localhost:4000/data-structure/">&lt;p&gt;Data structure là các phương thức cụ thể để tổ chức dữ liệu nhằm sử dụng nó một cách hiệu quả.&lt;/p&gt;
+
+&lt;p&gt;Bài này mình sẽ đi sâu vào tìm hiểu bản chất chứ không bao gồm cách implement nó như nào.&lt;/p&gt;
+
+&lt;h3 id=&quot;array&quot;&gt;Array&lt;/h3&gt;
+
+&lt;p&gt;Là một block memory, dùng để chứa các phần tử có cùng kiểu dữ liệu ở vị trí liền kề nhau trong block đó. Kích thước của array phải được chỉ ra trước khi được lưu trữ và nó luôn cố định.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Array in memory&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Khi một array &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; được khởi tạo với &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; phần thử, và mỗi phần tử có độ dài &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M&lt;/code&gt; bytes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trình biên dịch sẽ cấp phát &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N * M&lt;/code&gt; bytes cho array này, phần tử đầu tiên được chứa trong &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M&lt;/code&gt; bytes đầu, lần lượt với các phần tử tiếp theo.&lt;/li&gt;
+  &lt;li&gt;Trình biên dịch sẽ lưu lại địa chỉ trong bộ nhớ của byte đầu tiên của phần tử đầu tiên - cũng được xem như là địa chỉ của array. Vì các phần tử có kích thước bằng nhau và nằm liên tiếp bộ nhớ, nên nó có thể truy cập đến được các phần tử bất kì trong array bằng &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Cần truy cập vào địa chỉ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A[n]&lt;/code&gt;. Trình biên dịch sẽ đến vị trí &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n*M&lt;/code&gt; bytes và lấy ra M bytes sau đó. Đây cũng là 1 lý do tại sao index của array lại bắt đầu từ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;linked-list&quot;&gt;Linked List&lt;/h3&gt;
+
+&lt;p&gt;Chứa các phần tử là object (node) bao gồm 2 phần:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dữ liệu (data)&lt;/li&gt;
+  &lt;li&gt;reference đến node tiếp theo / node trước đó (pointer)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Khi một phần tử được thêm vào list, trình biên dịch sẽ cấp phát bộ nhớ cho node mới này ở 1 địa chỉ bất kì, sau đó link địa chỉ mới này với list. Điều này đồng nghĩa với việc CPU không thể cache nội dung của 1 linked list như array, do đó nó thường không được sử dụng để implement &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;queue&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Một nhược điểm nữa của linked list đó là &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;không thực sự nhanh trong việc truy cập phần tử&lt;/code&gt;. Muốn truy cập vào phần tử thứ N thì luôn cần phải duyệt qua N node từ node đầu tiên.&lt;/p&gt;
+
+&lt;p&gt;Một số loại linked list:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Single Linked List&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A → B → C&lt;/p&gt;
+
+&lt;p&gt;Từ một node có thể xác định được node kề sau nó.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Double Linked List&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A ↔ B ↔ C&lt;/p&gt;
+
+&lt;p&gt;Từ một node có thể xác định được node kề trước và kề sau nó.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cicular Linked List&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A → B → C → A hoặc A ↔ B ↔ C ↔ A&lt;/p&gt;
+
+&lt;h3 id=&quot;stack&quot;&gt;Stack&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/stack.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stack (xếp chồng) hay còn có 1 tên gọi khác là LIFO (last in first out) là 1 collection hoạt động trên cơ chế &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;phần tử vào đầu thì ra cuối, phần tử vào cuối thì ra đầu&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Một số trường hợp có thể sử dụng &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stack&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Backtracking: Cần &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undo&lt;/code&gt; lại hành động trước đó: back lại trang trước đó …&lt;/li&gt;
+  &lt;li&gt;Thuật toán đệ quy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;queue&quot;&gt;Queue&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/queue.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay còn được gọi với tên khác là FIFO (first in first out) là 1 collection hoạt động trên cơ chế &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;phần tử vào trước thì sẽ được lấy ra trước&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Một số trường hợp có thể dùng &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;queue&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First Come First Serve: App của bạn nhận rất nhiều request nhưng mỗi lần chỉ xử lý đc một vài cái. Lúc này có thể tạo 1 queue để nhận request và xử lý dần, request nào đến trước thì xử lý trước, cái nào đến sau thì xử lý sau&lt;/li&gt;
+  &lt;li&gt;Cache&lt;/li&gt;
+  &lt;li&gt;Breadth First Search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cả &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Stack&lt;/code&gt; và &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Queue&lt;/code&gt; có thể được implement bằng array hoặc linked list&lt;/p&gt;</content><author><name>Chi Tran</name></author><summary type="html">Data structure là các phương thức cụ thể để tổ chức dữ liệu nhằm sử dụng nó một cách hiệu quả.</summary></entry></feed>
