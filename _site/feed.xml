@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-27T15:23:57+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chi Tran</title><subtitle>Be best of yourself</subtitle><author><name>Chi Tran</name></author><entry><title type="html">Linear data structure</title><link href="http://localhost:4000/data-structure/" rel="alternate" type="text/html" title="Linear data structure" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/data-structure</id><content type="html" xml:base="http://localhost:4000/data-structure/">&lt;p&gt;Data structure là các phương thức cụ thể để tổ chức dữ liệu nhằm sử dụng nó một cách hiệu quả.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-28T10:51:33+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chi Tran</title><subtitle>Be best of yourself</subtitle><author><name>Chi Tran</name></author><entry><title type="html">Plan cho năm 2020</title><link href="http://localhost:4000/plan-2020/" rel="alternate" type="text/html" title="Plan cho năm 2020" /><published>2020-05-28T00:00:00+07:00</published><updated>2020-05-28T00:00:00+07:00</updated><id>http://localhost:4000/plan-2020</id><content type="html" xml:base="http://localhost:4000/plan-2020/">&lt;p&gt;&lt;em&gt;Bắt đầu từ ngày 01/06/2020 đến ngày 31/12/2020&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Hoàn tất Engbreaking cải thiện phản xạ&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Thi Toeic đạt ít nhất 650 điểm&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Hoàn tất việc hệ thống lại kiến thức cũ&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Đi du lịch thêm được 3 nơi&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Tiết kiệm được thêm 80 triệu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;các-kiến-thức-cơn-bản-cần-hệ-thống-lại-ưu-tiên-những-phần-quan-trong-trước&quot;&gt;Các kiến thức cơn bản cần hệ thống lại, ưu tiên những phần quan trong trước:&lt;/h3&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Programing&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Computer architecture&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Algorithms and Data structure&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Operating system&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Computer network&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Language and Compiler&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Distributed system&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Design pattern&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Software architecture&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Clean code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;các-kiến-thức-mới-cần-bổ-sung&quot;&gt;Các kiến thức mới cần bổ sung:&lt;/h3&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Communication skill&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Project management&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Chi Tran</name></author><summary type="html">Bắt đầu từ ngày 01/06/2020 đến ngày 31/12/2020</summary></entry><entry><title type="html">Linear data structure</title><link href="http://localhost:4000/data-structure/" rel="alternate" type="text/html" title="Linear data structure" /><published>2020-05-27T00:00:00+07:00</published><updated>2020-05-27T00:00:00+07:00</updated><id>http://localhost:4000/data-structure</id><content type="html" xml:base="http://localhost:4000/data-structure/">&lt;p&gt;Data structure là các phương thức cụ thể để tổ chức dữ liệu nhằm sử dụng nó một cách hiệu quả.&lt;/p&gt;
 
 &lt;p&gt;Bài này mình sẽ đi sâu vào tìm hiểu bản chất chứ không bao gồm cách implement nó như nào.&lt;/p&gt;
 
