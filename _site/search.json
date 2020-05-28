@@ -2,6 +2,14 @@
   
     {
 
+      "title"    : "Plan cho năm 2020",
+      "url"      : "/plan-2020/",
+      "category" : "Plan",
+      "date"     : "May 28, 2020"
+    } ,
+  
+    {
+
       "title"    : "Linear data structure",
       "url"      : "/data-structure/",
       "category" : "Data structure",
